@@ -25,6 +25,11 @@ abstract class AbstractFilter
     /** @var string */
     protected $operator;
 
+    public function __construct()
+    {
+        $this->set([]);
+    }
+
     /**
      * @param array $options
      */

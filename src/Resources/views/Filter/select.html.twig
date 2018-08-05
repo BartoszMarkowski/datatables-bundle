@@ -1,5 +1,5 @@
-<label>
-    <select
+<div>
+    <select  class="form-control"
             id="{{ datatable.name }}-column-{{ column.index }}"
             data-search-column-index="{{ column.index }}"
     >
@@ -10,4 +10,4 @@
             <option value="{{ key }}">{{ choice }}</option>
         {% endfor %}
     </select>
-</label>
+</div>

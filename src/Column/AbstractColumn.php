@@ -264,4 +264,8 @@ abstract class AbstractColumn
 
         return $this;
     }
+
+    public function getSearchValue() {
+        return '';
+    }
 }

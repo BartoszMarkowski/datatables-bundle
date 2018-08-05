@@ -1,6 +1,7 @@
-<label>
-    <input id="{{ datatable.name }}-column-{{ column.index }}"
-           data-search-column-index="{{ column.index }}"
+<div>
+    <input  class="form-control"
+            id="{{ datatable.name }}-column-{{ column.index }}"
+            data-search-column-index="{{ column.index }}"
             {% if column.filter.placeholder != null %}
                 placeholder="{{ column.filter.placeholder|trans }}"
             {% endif %}
@@ -10,4 +11,4 @@
             console.log(data);
         });
     </script>
-</label>
+</div>
